@@ -2,15 +2,19 @@
 
 เดโมแบบโต้ตอบสำหรับแนวคิด **BRAKE: เบรกก่อนโอน** ระบบที่ตรวจจับสัญญาณความเสี่ยงจากบริบทธุรกรรมของผู้ใช้ อธิบายเหตุผล และสร้างช่วงหยุดคิดก่อนเงินออกจากบัญชี
 
-Visual direction follows public K PLUS interaction patterns: a deep-green account header, four primary banking shortcuts, compact white cards, high-contrast green actions, and a five-item bottom navigation. This remains an independent concept prototype and is not an official KBank product.
+Visual direction recreates the supplied legacy K PLUS dashboard reference: a dark charcoal account surface, circular available-balance display, mint-outlined banking shortcuts, and a raised transfer action in the five-item bottom navigation. This remains an independent concept prototype and is not an official KBank product.
 
 ## Demo flow
 
-1. ตรวจสอบรายการโอน ฿3,000 ไปยังผู้รับรายใหม่
-2. ดูสัญญาณความเสี่ยงที่อธิบายได้
-3. ตอบคำถามสั้น ๆ เพื่อทบทวนการตัดสินใจ
-4. พักรายการ 45 วินาทีและเลือกขอความช่วยเหลือ
-5. เปิดโหมดฉุกเฉินและติดตามเคสพร้อมหลักฐาน
+1. กรอกรายละเอียดการโอน ฿3,000 ไปยังผู้รับรายใหม่
+2. ตรวจสอบข้อมูลและอ่านคำเตือนที่อธิบายสัญญาณเฉพาะรายการ
+3. ดูการวิเคราะห์ความเสี่ยงของ BRAKE หลังเลือกยืนยัน
+4. ตอบคำถามสั้น ๆ เพื่อทบทวนการตัดสินใจ
+5. พักรายการ 45 วินาทีและเลือกขอความช่วยเหลือ
+6. เลือกเส้นทางตามสถานการณ์:
+   - หากเสี่ยง: เปิดโหมดฉุกเฉินและติดตามเคสพร้อมหลักฐาน
+   - หากยืนยันว่าไม่เสี่ยง: โอนสำเร็จและรับสลิป
+   - หากพบภายหลังว่าถูกหลอก: เริ่มแจ้งเหตุจากสลิปและติดตามการระงับเงินปลายทาง
 
 ## Run locally
 
